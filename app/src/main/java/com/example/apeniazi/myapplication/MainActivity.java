@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 //Whats going on here
+//hello from Alon
 public class MainActivity extends AppCompatActivity {
 
     @Override
