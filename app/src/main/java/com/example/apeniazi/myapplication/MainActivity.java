@@ -8,7 +8,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-
+//Whats going on here
 public class MainActivity extends AppCompatActivity {
 
     @Override
