@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+        android:orientation="vertical" >
 
     <TextView
         android:layout_width="wrap_content"
@@ -21,17 +21,72 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:hint="message" />
+            android:hint="NFC message" />
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Write" />
+            android:text="send nfc" />
     </LinearLayout>
     <TextView
         android:id="@+id/nfc_contents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
+        android:layout_marginTop="40sp" >
+
+        <EditText
+            android:id="@+id/edit_message_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="BT message" />
+        <Button
+            android:id="@+id/button_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Send BT" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/bt_contents"
+        android:layout_width="match_parent"
+        android:layout_height="20sp" />
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp" >
+
+        <EditText
+            android:id="@+id/edit_message_web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="Web message" />
+        <Button
+            android:id="@+id/button_web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Send HTTP" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/web_contents"
+        android:layout_width="match_parent"
+        android:layout_height="20sp" />
+
 </LinearLayout>
